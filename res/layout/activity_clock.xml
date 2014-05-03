@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cocoahero.android.TronClock.view.TronClockView
+        android:id="@+id/discs"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:arcPadding="5dp"
+        app:arcWidth="15dp"
+        app:hoursColor="@android:color/holo_blue_dark"
+        app:minutesColor="@android:color/holo_blue_bright"
+        app:secondsColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="36sp" />
+
+</FrameLayout>

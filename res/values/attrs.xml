@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TronClockView">
+        <attr name="secondsColor" format="reference|color" />
+        <attr name="minutesColor" format="reference|color" />
+        <attr name="hoursColor" format="reference|color" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="arcPadding" format="dimension" />
+    </declare-styleable>
+
+</resources>

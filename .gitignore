@@ -1,0 +1,36 @@
+# Built Application Files
+*.apk
+*.ap_
+
+# Dex VM
+*.dex
+
+# Java Class Files
+*.class
+
+# Generated Files
+bin/
+gen/
+build/
+
+# Mac OS X
+.DS_Store
+*.tmp
+*.bak
+*.swp
+
+# Eclipse
+tmp/**
+.classpath
+.project
+.settings
+
+# Gradle
+.gradle/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local Configuration
+local.properties
